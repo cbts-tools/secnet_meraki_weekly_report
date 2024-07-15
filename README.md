@@ -38,7 +38,7 @@ This script will pull all meraki organization devices and send a weekly report t
   * git pull origin main
   *
   * python3 -m venv venv_td
-  * source venv_td/bin/activate
+  * source venv/bin/activate
   * pip install -r requirements.txt
   * python3 get_all_meraki_devices.py
 
