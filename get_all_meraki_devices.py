@@ -14,7 +14,7 @@ import reverse_geocode
 from geopy.geocoders import Nominatim
 
 urllib3.disable_warnings()
-load_dotenv()
+load_dotenv('../.env')
 MERAKI_DASHBOARD_API_KEY = os.getenv("MERAKI_DASHBOARD_API_KEY")
 VCO124TOKEN = os.getenv('VCO124TOKEN')
 VCO160TOKEN = os.getenv('VCO160TOKEN')
