@@ -6,6 +6,7 @@ future==1.0.0
 idna==3.7
 load-dotenv==0.1.0
 numpy==1.26.4
+meraki==1.46.0
 O365==2.0.34
 oauthlib==3.2.2
 openpyxl==3.1.2
