@@ -15,7 +15,7 @@ from webexteamssdk import WebexTeamsAPI
 
 urllib3.disable_warnings()
 load_dotenv('../.env')
-MERAKI_DASHBOARD_API_KEY = os.getenv("MERAKI_DASHBOARD_API_KEY")
+MERAKI_DASHBOARD_API_KEY = os.getenv("meraki_api_key")
 VCO124TOKEN = os.getenv('VCO124TOKEN')
 VCO160TOKEN = os.getenv('VCO160TOKEN')
 VCO33TOKEN = os.getenv('VCO33TOKEN')
